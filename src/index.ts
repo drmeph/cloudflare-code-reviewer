@@ -115,7 +115,7 @@ export default {
     return stub.fetch(new Request('https://internal/queue-review', {
       method: 'POST',
       body: JSON.stringify(payload)
-    }));
+    }));;
   }
 };
 
