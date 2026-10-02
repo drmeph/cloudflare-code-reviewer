@@ -60,7 +60,7 @@ async function getInstallationToken(appJwt: string, installationId: number): Pro
       Accept: 'application/vnd.github+json',
       'User-Agent': 'Cloudflare-Code-Reviewer-App'
     }
-  });
+  });;
   if (!res.ok) {
     throw new Error(`Failed to mint installation token: ${res.status} ${await res.text()}`);
   }
