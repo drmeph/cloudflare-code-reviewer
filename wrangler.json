@@ -4,7 +4,7 @@
   "main": "src/index.ts",
   "compatibility_date": "2026-09-09",
   "vars": {
-    "GITHUB_APP_ID": "4900280",
+    "GITHUB_APP_ID": "5156322",
     "JEV_ESCALATION_FLOOR": "0.5"
   },
   "ai": {
